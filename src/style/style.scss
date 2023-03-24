@@ -1,0 +1,35 @@
+@import "~normalize.css";
+@import "./catalog.scss";
+
+@font-face {
+  font-family: "PT Root UI";
+  src: url("../fonts/PTRootUI-Regular/PTRootUI-Regular.eot");
+  src: local("PT Root UI"), local("PTRootUI-Regular"),
+    url("../fonts/PTRootUI-Regular/PTRootUI-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PTRootUI-Regular/PTRootUI-Regular.woff2") format("woff2"),
+    url("../fonts/PTRootUI-Regular/PTRootUI-Regular.woff") format("woff"),
+    url("../fonts/PTRootUI-Regular/PTRootUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Root UI";
+  src: url("../fonts/PTRootUI-Bold/PTRootUI-Bold.eot");
+  src: local("PT Root UI Bold"), local("PTRootUI-Bold"),
+    url("../fonts/PTRootUI-Bold/PTRootUI-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PTRootUI-Bold/PTRootUI-Bold.woff2") format("woff2"),
+    url("../fonts/PTRootUI-Bold/PTRootUI-Bold.woff") format("woff"),
+    url("../fonts/PTRootUI-Bold/PTRootUI-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  font-family: "PT Root UI";
+}
+* {
+  box-sizing: border-box;
+}
